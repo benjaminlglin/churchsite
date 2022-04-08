@@ -18,6 +18,7 @@ const ContactPage = () => (
           </tbody></table><table class="table"><tbody><tr><th scope="col">３．LINEの友だち追加から「QR コード」読み取って登録！</th></tr>
           <tr><td><a href="ttps://qr-official.line.me/sid/M/684fppkn.png"><img class="" src="https://qr-official.line.me/sid/M/684fppkn.png"/></a>
           </td></tr></tbody></table></div></div></div>
+          
     </main>
   </Layout>
 )
