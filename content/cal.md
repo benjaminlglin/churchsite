@@ -1,9 +1,9 @@
 ---
 date: 2022-01-02
-title: "Calendar"
+title: "教会の日程表"
 cover: "https://unsplash.it/400/300/?random?BoldMage"
 categories: 
-    - Calendar
+    - 日程表
 tags:
     - Calendar
 ---

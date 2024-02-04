@@ -68,7 +68,9 @@ const SEO = ({ postNode, postPath, postSEO }) => {
       {/* General tags */}
       <meta name="description" content={description} />
       <meta name="image" content={image} />
-
+      <meta name="Access-Control-Allow-Origin" content="*" />
+      <meta name="cross-origin-resource-policy" content="cross-origin" />
+    
       {/* Schema.org tags */}
       <script type="application/ld+json">
         {JSON.stringify(schemaOrgJSONLD)}

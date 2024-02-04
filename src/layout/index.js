@@ -10,6 +10,9 @@ const MainLayout = ({ children }) => (
     <Header />
     <Helmet>
       <meta name="description" content={config.siteDescription} />
+      <meta name="Access-Control-Allow-Origin" content="*" />
+      <meta name="cross-origin-resource-policy" content="cross-origin" />
+      
     </Helmet>
     {children}
     <Footer />

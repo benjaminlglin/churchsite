@@ -23,8 +23,12 @@ export default ({ data, pageContext }) => {
       <main>
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
+          <meta name="Access-Control-Allow-Origin" content="*" />
+      <meta name="cross-origin-resource-policy" content="cross-origin" />
+      <meta name="Cross-Origin-Embedder-Policy" content="cross-origin" />
+     
         </Helmet>
-        <SEO postPath={slug} postNode={postNode} postSEO />
+      
         <div>
           <h1>{post.title}</h1>
           <p className={styles.postMeta}>
